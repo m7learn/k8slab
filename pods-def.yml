@@ -1,0 +1,11 @@
+ apiVersion: v1
+ kind: Pod
+ metadata:
+    name: secund-pods
+    labels:
+      app: myapp
+      type: restart
+spec: 
+  containers:
+   -name: cvkub
+   image: m7learn/cvkub:1.0
